@@ -48,6 +48,11 @@ a {
 	color: #DDDDDD;
 }
 
+#menu-icon {
+	float: left;
+	margin-top: 25px;
+}
+
 #logo {
 	text-align: center;
 	margin-top: 120px;
@@ -116,38 +121,46 @@ a.red:hover {
 	margin: 100px 220px 100px 220px;
 }
 
-#article {
+.article {
 	padding: 30px 100px;
 	text-align: justify;
 }
 
-#article h1 {
+.article h1 {
 	text-align: center;
 	font-size: 50px;
 }
 
-#article p {
+.article p {
 	font-family: Serif;
 	font-size: 20px;
-}
-
-#article img {
-	text-align: center;
 }
 
 .continue-reading {
 	text-align: center;
 	background-color: #e32929;
 	padding: 20px;
+	color: white;
 }
 
 .continue-reading:hover {
 	background-color: #c92222;
 }
 
-.continue-reading a {
-	color : white;
-	font: bold;
+.hidden-article {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.shrink-again {
+	text-align: center;
+	background-color: #4FA74F;
+	padding: 20px;
+}
+
+.shrink-again:hover {
+	background-color: #326832;
 }
 
 a.white {
