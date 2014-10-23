@@ -105,10 +105,10 @@ a.red:hover {
 }
 
 #fixed-header {
-	position: fixed;
 	top: 0;
 	background-color: #444444;
 	width: 1400px;
+	height: 70px;
 	margin: 0;
 	padding: 0px 50px;
 }
@@ -118,7 +118,7 @@ a.red:hover {
 }
 
 #container {
-	margin: 100px 220px 100px 220px;
+	margin: 0px 200px 100px 200px;
 }
 
 .article {
@@ -139,7 +139,7 @@ a.red:hover {
 .continue-reading {
 	text-align: center;
 	background-color: #e32929;
-	padding: 20px;
+	padding: 10px;
 	color: white;
 }
 
