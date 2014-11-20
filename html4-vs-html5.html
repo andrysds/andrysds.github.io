@@ -1,135 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>HTML4 vs HMTL5</title>
-    <link rel="stylesheet" href="/style.css">
-    <script src="/jquery-1.11.0.js"></script>
-    <script src="/script.js"></script>
-    <link rel="shortcut icon" href="/images/icon.png">
-</head>
-
-<body>
-    <div id="fixed-header">
-        <div id="title">
-            <h1><a href="/">ANDRYSDS</a></h1>
-        </div>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Andrys Silalahi</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="shortcut icon" href="/images/icon.png">
+    </head>
+    <body>
         <div id="navbar">
-            <h3>
-              <a href="/">HOME</a>
-              <a href="/blog.html">BLOG</a>
-              <a href="/about-me.html">ABOUT</a>
-              <a href="/contact.html">CONTACT</a>
-            </h3>
+            <div class="container">
+                <ul id="title">
+                    <li>
+                        <a href=".">
+                            <strong>ANDRYS</strong>SILALAHI
+                        </a>
+                    </li>
+                </ul>
+                <ul id="navmenu">
+                    <li>
+                        <a href=".">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-	<div id="container">
-		<div class="article">
-			<h1>HTML4 vs HMTL5</h1>
-			<p>It’s going to be a while before HTML5 is the new standard and everything HTML5 has to offer is supported by all the important browsers.</p>
-
-
-<p>If you’re a web dev, what should you do? If you’re new to the game or you’re an old pro, you eventually have to ask yourself when and how to begin transitioning over.</p>
-
-
-<p>Perhaps the first thing that you should learn and keep in mind is exactly what the differences between the two are.</p>
-
-
-
-
-<p>Here are ten important differences between HTML4 and HTML5 :</p>
-
-
-
-
-<h2>1. HTML5 Is a Work in Progress</h2>
-
-
-<pre><code>&lt;p&gt;As cool as it is to see what HTML5 can do for you, it hasn’t been standardized like HTML4. You don’t have to worry about updating pages built using HTML4. It’s more than ten years old and it’s a set standard. &lt;/p&gt;
-
-&lt;p&gt;If you jump into HTML5 with both feet, you’re going to be making updates. Elements and attributes are added and modified several times a year. Of course, this is dependent how much you depend on rich elements, but it’s certainly a risk you must take into consideration when using a fluid language.&lt;/p&gt;
-
-&lt;p&gt;Build with HTML4, play with HTML5.&lt;/p&gt;
-</code></pre>
-
-<h2>2. Simplified Syntax</h2>
-
-
-<pre><code>&lt;p&gt;The simpler doctype declaration is just one of the many novelties in HTML5. Now you need to write only: &amp;lt!doctype html&amp;gt and this is it. The syntax of HTML5 is compatible with HTML4 and XHTML1, but not with SGML.&lt;p&gt;
-</code></pre>
-
-<h2>3. The New &ltcanvas&gt Element</h2>
-
-
-<pre><code>&lt;p&gt;This is what killed Flash. Although it isn’t as … uh … flashy … most assume that it will eventually make Flash obsolete. One time will tell.&lt;p&gt;
-</code></pre>
-
-<h2>4. The &ltheader&gt and &ltfooter&gt Elements</h2>
-
-
-<pre><code>&lt;p&gt;For good or bad, HTML5 has acknowledged the new web anatomy. With HTML5, &amp;ltheader&amp;gt and &amp;ltfooter&amp;gt are specifically marked for such. Because of this, it is unnecessary to identify these two elements with a &amp;ltdiv&amp;gt tag.&lt;/p&gt;
-</code></pre>
-
-<h2>5. New &ltsection&gt and &ltarticle&gt Elements</h2>
-
-
-<pre><code>&lt;p&gt;Again, HTML5 has adopted the popular web standard. &amp;ltsection&amp;gt and &amp;ltarticle&amp;gt allows you to mark specific areas of your layout as such, and should have a positive effect on on your SEO in the end.&lt;/p&gt;
-</code></pre>
-
-<h2>6. New &ltmenu&gt and &ltfigure&gt Elements</h2>
-
-
-<pre><code>&lt;p&gt;&amp;ltmenu&amp;gt can be used for your main menu, but it can also be used for toolbars and context menus. The &amp;ltfigure&amp;gt element is another way to arrange text and images.&lt;/p&gt;
-</code></pre>
-
-<h2>8. New &ltaudio&gt and &ltvideo&gt Elements</h2>
-
-
-<pre><code>&lt;p&gt;Embedded audio and video has never been easier. There are also some new multimedia elements and attributes, such as &amp;lttrack&amp;gt, that provides text tracks for the video element. With these additions HTML5 is definitely getting more and more Web 2.0-friendly. The problem is that by the time HTML5 becomes widely accepted, Web 2.0 might be old news.
-</code></pre>
-
-<h2>8. New Forms</h2>
-
-
-<pre><code>&lt;p&gt;The new &amp;ltform&amp;gt and &amp;ltforminput&amp;gt elements are looking good. If you do much with forms, you may want to take a look at what these have to offer.&lt;/p&gt;
-</code></pre>
-
-<h2>9. Kiss &ltb&gt and &ltfont&gt Goodbye!</h2>
-
-
-<pre><code>&lt;p&gt;CSS, all the time. All the time, CSS.&lt;/p&gt;
-</code></pre>
-
-<h2>10. No More &ltframe&gt, &ltcenter&gt, &ltbig&gt</h2>
-
-
-<pre><code>&lt;p&gt;I bet you’re going to miss these. ;-)&lt;/p&gt;
-</code></pre>
-
-<h2>Conclusion</h2>
-
-
-<pre><code>&lt;p&gt;Use HTML5 with caution and be ready to make updates. Stop using elements that HTML5 has kicked from the code, and try using new HTML5 elements that are sure to stick (&amp;ltheader&amp;gt, &amp;ltfooter&amp;gt, etc …). You might as well start getting into the habit of using these, now.&lt;p&gt;
-
-&lt;p&gt;If you want to keep up to date on the differences, &lt;a href="http://www.w3.org/TR/html5-diff/"&gt;keep checking W3C.&lt;/a&gt;&lt;p&gt;
-</code></pre>
-
-<p><a href="http://churchm.ag/differences-between-html4-html5/">Source</a></p>
-
-
-		</div>
-	</div>
-	<div id="footer">
-		© 2014 <a href="index.html">wwww.andrysds.cf</a>
-		<br>
-		Developer, Designer, Gamer, Noob Guitarist.
-		<br>
-		<a href="index.html">Home</a> •
-		<a href="blog.html">Blog</a> •
-		<a href="about-me.html">About</a> •
-		<a href="contact.html">Contact</a>
-	</div>
-</body>
-
+                                        
+	    <div class="content">
+		    <div class="article">
+			    <h1>HTML4 vs HMTL5</h1>
+			        <p>It’s going to be a while before HTML5 is the new standard and everything HTML5 has to offer is supported by all the important browsers.</p>
+                    <p>If you’re a web dev, what should you do? If you’re new to the game or you’re an old pro, you eventually have to ask yourself when and how to begin transitioning over.</p>
+                    <p>Perhaps the first thing that you should learn and keep in mind is exactly what the differences between the two are.</p>
+                    <p>Here are ten important differences between HTML4 and HTML5 :</p>
+                <h2>1. HTML5 Is a Work in Progress</h2>
+                <p>As cool as it is to see what HTML5 can do for you, it hasn’t been standardized like HTML4. You don’t have to worry about updating pages built using HTML4. It’s more than ten years old and it’s a set standard. </p>
+                <p>If you jump into HTML5 with both feet, you’re going to be making updates. Elements and attributes are added and modified several times a year. Of course, this is dependent how much you depend on rich elements, but it’s certainly a risk you must take into consideration when using a fluid language.</p>
+                <p>Build with HTML4, play with HTML5.</p>
+                <h2>2. Simplified Syntax</h2>
+                    <p>The simpler doctype declaration is just one of the many novelties in HTML5. Now you need to write only: &lt;!doctype html&gt; and this is it. The syntax of HTML5 is compatible with HTML4 and XHTML1, but not with SGML.</p>
+                <h2>3. The New &lt;canvas&gt; Element</h2>
+                    <p>This is what killed Flash. Although it isn’t as … uh … flashy … most assume that it will eventually make Flash obsolete. One time will tell.</p>
+                <h2>4. The &lt;header&gt; and &lt;footer&gt; Elements</h2>
+                    <p>For good or bad, HTML5 has acknowledged the new web anatomy. With HTML5, &lt;header&gt; and &lt;footer&gt; are specifically marked for such. Because of this, it is unnecessary to identify these two elements with a &lt;div&gt;</p>
+                <h2>5. New &lt;section&gt; and &lt;article&gt; Elements</h2>
+                    <p>Again, HTML5 has adopted the popular web standard. &lt;section&gt; and &lt;article&gt; allows you to mark specific areas of your layout as such, and should have a positive effect on on your SEO in the end.</p>
+                <h2>6. New &lt;menu&gt; and &lt;figure&gt; Elements</h2>
+                    <p>&lt;menu&gt; can be used for your main menu, but it can also be used for toolbars and context menus. The &lt;figure&gt; element is another way to arrange text and images.</p>
+                <h2>8. New &lt;audio&gt; and &lt;video&gt; Elements</h2>
+                    <p>Embedded audio and video has never been easier. There are also some new multimedia elements and attributes, such as &lt;track&gt;, that provides text tracks for the video element. With these additions HTML5 is definitely getting more and more Web 2.0-friendly. The problem is that by the time HTML5 becomes widely accepted, Web 2.0 might be old news.</code></pre>
+                <h2>8. New Forms</h2>
+                    <p>The new &lt;form&gt; and &lt;forminput&gt; elements are looking good. If you do much with forms, you may want to take a look at what these have to offer.</p>
+                <h2>9. Kiss &lt;b&gt; and &lt;font&gt; Goodbye!</h2>
+                    <p>CSS, all the time. All the time, CSS.</p>
+                <h2>10. No More &lt;frame&gt;, &lt;center&gt;, &lt;big&gt;</h2>
+                    <p>I bet you’re going to miss these. ;-)</p>
+                <h2>Conclusion</h2>
+                    <p>Use HTML5 with caution and be ready to make updates. Stop using elements that HTML5 has kicked from the code, and try using new HTML5 elements that are sure to stick (&lt;header&gt;, &lt;footer&gt;, etc …). You might as well start getting into the habit of using these, now.&lt;p&gt; &lt;p&gt;If you want to keep up to date on the differences, <a href="http://www.w3.org/TR/html5-diff/">keep checking W3C.</a></p>
+                <p><a href="http://churchm.ag/differences-between-html4-html5/">Source</a></p>
+            </div>
+	    </div>
+    	
+    	<div id="footer">
+	        © 2014 <a href="index.html">wwww.andrysds.cf</a>
+	        <br>
+	        Developer / Programmer
+	        <br>
+	        <a href="https://github.com/andrysds/andrysds.github.io">Github</a> •
+	        <a href="index.html">Home</a> •
+	        <a href="blog.html">Blog</a> •
+	        <a href="about-me.html">About</a> •
+	        <a href="contact.html">Contact</a>
+        </div>
+    </body>
 </html>
