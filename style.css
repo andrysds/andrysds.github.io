@@ -190,3 +190,14 @@ section.module.parallax-2 {
 	background-color: #F9FAFB;
     border-top: solid 1px #E7E7E7;
 }
+
+/* Table */
+
+table {
+    width:100%;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
