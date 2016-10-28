@@ -35,10 +35,10 @@ a:hover {
 
 @font-face {
   font-family: nougatine;
-  src: url('../fonts/nougatine.ttf');
+  src: url("../fonts/nougatine.woff") format('woff');
 }
 .logo {
-  font-family: nougatine;
+  font-family: nougatine, serif;
   font-style: italic;
 }
 .name {
