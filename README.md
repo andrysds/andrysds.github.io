@@ -1,3 +1,3 @@
-# LghtLb- personal website
+# some random site
 
-http://lghtblb1.github.io
+http://andrysds.github.io
