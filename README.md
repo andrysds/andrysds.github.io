@@ -1,3 +1,3 @@
-# some random site
+# personal blog
 
-http://andrysds.github.io
+http://drysds.github.io
