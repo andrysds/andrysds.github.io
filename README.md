@@ -1,3 +1,1 @@
-# personal blog
-
-http://drysds.github.io
+just testing the github pages
